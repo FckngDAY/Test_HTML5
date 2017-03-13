@@ -360,12 +360,16 @@ label{
 .content .free input[type='email'],.content .free input[type='text']{
 	margin:0;
 	width: 133px;
-	padding: 0 5px;
+	padding: 2px 5px;
 	background: #e9e9e9;
 	border: 1px solid #a9b4bb;
 	border-radius:5px;
 	height:18px;
 	margin-bottom: 3px;
+}
+
+.content .free input[type='email']:hover,.content .free input[type='text']:hover{
+	border-radius:2px;
 }
 
 #free_course_email:focus,#free_course_name:focus{
