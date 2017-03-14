@@ -43,6 +43,14 @@ label{
 	text-align: center;
 }
 
+.right{
+	text-align:right;
+}
+
+.red{
+	color:red;
+}
+
 #topmenu{
 	padding: 0;
 	float: right;
@@ -385,3 +393,79 @@ label{
 	margin: 0;
 	padding:0;
 }
+
+#quotes p.right{
+	font-size:80%;
+}
+
+#quotes p:first-child{
+	font-size:75%;
+	margin-right: 40px;
+}
+
+#quotes{
+	padding: 5px 5px 0 5px;
+}
+
+#center{
+	margin:0 230px;
+}
+
+#center .main{
+	background: linear-gradient(180deg, #fff, #e6e6e6);
+	border-radius:10px;
+	padding: 20px 10px 0 10px;
+	border: 2px solid #ffffff;
+}
+
+#center .main h1, .main .h1{
+	border-left:2px solid #2aa1d3;
+	padding-left:10px;
+	color: #444953;
+	font-weight: normal;
+}
+
+#center .main h2{
+	font-weight: normal;
+	color: #444953;
+}
+
+#center .main{
+	padding:20px;
+	overflow: hidden;
+}
+
+#center .article_img img{
+	display:block;
+	margin:0 auto;
+}
+
+.main section .state_img{
+	float:left;
+	margin-right:10px;
+}
+
+.main section .state_img > div{
+	margin: -35px 0 0 -10px;
+	width: 52px;
+	height: 52px;
+}
+
+.main section .date_text{
+	margin-top: -49px;
+	text-align:center;
+	color:#fff;
+}
+
+.main .article_info{
+	background-color:red;
+	margin: -10px 0 0 0;
+}
+
+.main .article_info li{
+	float:left;
+	margin-left: 25px;
+	font-size: 80%;
+}
+
+
