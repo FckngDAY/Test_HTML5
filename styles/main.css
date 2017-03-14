@@ -1,8 +1,8 @@
 body{
 	background: url('../images/bg.png') repeat;
 	font-family:Arial,SansSerif;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #container{
@@ -21,7 +21,7 @@ header{
 	background: linear-gradient(180deg,#62a6de 0%,#4593c0 60%,#247fb3 61%,#096e98 100%);
 	border-bottom: 1px solid #06435e;
 	height: 46px;
-	padding: 15px 20px 0px;
+	padding: 15px 20px 0;
 }
 
 header h1 {
@@ -67,7 +67,7 @@ label{
 	text-decoration: none;
 	color: #fdfeff;
 	display: block;
-	padding: 9px 10px 7px;
+	padding: 9px 8px 7px;
 	text-align:center;
 }
 
@@ -75,7 +75,7 @@ label{
 	background-color: #086d97;
 	border: 1px solid #06445e;
 	border-radius:5px;
-	padding: 8px 9px 6px;
+	padding: 8px 7px 6px;
 }
 
 #top{
